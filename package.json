@@ -1,0 +1,35 @@
+{
+    "name": "java-minimal-extension-pack",
+    "displayName": "Java Minimal Extension Pack",
+    "description": "This is my favorite Extension Pack for Visual Studio Code",
+    "version": "0.0.1",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "publisher": "cangueganda",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "icon":"icon.png",
+
+    "repository": {
+        "type":"git",
+        "url":"https://github.com/"
+    },
+    "keywords" : [
+        "Java",
+        "Maven",
+        "Java minimal",
+        "Java essentials "
+        
+    ],
+
+    "categories": [
+        "Extension Packs"
+    ],
+    "extensionPack": [ 
+        "vscjava.vscode-java-pack",
+        "shengchen.vscode-checkstyle"
+    ],
+    "__metadata": {
+        "publisherDisplayName": "Cangue Ganda"
+      }
+}
