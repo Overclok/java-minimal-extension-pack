@@ -1,14 +1,14 @@
 {
     "name": "java-minimal-extension-pack",
     "displayName": "Java Minimal Extension Pack",
-    "description": "This is my favorite extension pack for Visual Studio Code",
-    "version": "0.0.1",
+    "description": "This is my favorite extension pack for Java",
+    "version": "0.0.2",
     "license": "SEE LICENSE IN LICENSE.md",
     "publisher": "CGanda",
     "engines": {
         "vscode": "^1.63.0"
     },
-    "icon": "icon.png",
+    "icon": "logo.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/Overclok/java-minimal-extension-pack"
@@ -16,22 +16,31 @@
     "homepage": "https://github.com/Overclok/java-minimal-extension-pack/blob/main/README.md",
     "keywords": [
         "Java",
-        "Maven"
+        "Maven",
+        "Minimal"
     ],
     "categories": [
         "Extension Packs"
     ],
     "extensionPack": [
-        "vscjava.vscode-java-pack",
-        "shengchen.vscode-checkstyle"
-    ],
-    "__metadata": {
-        "publisherDisplayName": "Cangue Ganda"
-    },
-    "devDependencies": {
-        "vsce": "^2.6.2"
-    },
-    "scripts": {
-  "deploy": "vsce publish --yarn"
+      "redhat.java",
+      "vscjava.vscode-java-debug",
+      "vscjava.vscode-maven",
+      "vscjava.vscode-java-dependency",
+      "VisualStudioExptTeam.vscodeintellicode"
+  ],
+  "__metadata": {
+      "publisherDisplayName": "Cangue Ganda"
+  },
+  "devDependencies": {
+      "vsce": "^2.6.2"
+  },
+  "scripts": {
+"deploy": "vsce publish --yarn"
 }
+
+ 
+ 
+
+
 }

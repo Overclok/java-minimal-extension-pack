@@ -2,22 +2,22 @@
 
 
 
-This extension pack packages some of the most popular (and some I find very useful) VSCode Java extensions.
+This extension pack packages some of the most popular (and some I find very useful) VSCode Java extensions,
+that can help write and debug Java applications in Visual Studio Code.
+
+
 
 ## Extensions Included
 
-* [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack) - Java Extension Pack is a collection of popular extensions that can help write, test and debug Java applications in Visual Studio Code. 
-Check out [Java in VS Code](https://code.visualstudio.com/docs/languages/java?WT.mc_id=DT-MVP-5002870) to get started.
-This package includes:
-    * Language Support for Java™ by Red Hat
-    * Debugger for Java
-    * Java Test Runner
-    * Maven for Java
-    * Java Dependency Viewer
-    * Visual Studio IntelliCode
 
 
-* [Checkstyle for Java](https://marketplace.visualstudio.com/items?itemName=shengchen.vscode-checkstyle) - Provide real-time feedback about Checkstyle violations and quick fix actions. Great extension to make sure you're following the code conventions (can customize to use Google or Sun convention).
+By installing Java Minimal Extension Pack, the following extensions are installed:
+
+- [ Language Support for Java™ by Red Hat ](https://marketplace.visualstudio.com/items?itemName=redhat.java)
+- [ Debugger for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug)
+- [ Maven for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven)
+- [ Project Manager for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-dependency)
+- [ Visual Studio IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode)
 
 
 **Enjoy!**
